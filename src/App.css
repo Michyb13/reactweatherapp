@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family:'Rubik', sans-serif; 
+    background: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    border: 1px solid lightblue;
+    padding: 40px 30px;
+    border-radius: 10px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.search-btn{
+    margin-left: 15px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    transition: all 0.3s ease;
+}
+::placeholder{
+    color: black;
+    opacity: 0.45;
+}
+
+
+.search-btn:hover{
+    background-color: #f5f5f5;
+}
+
+.search-btn:active{
+    box-shadow: inset 4px 4px 10px black;
+}
+
+.error{
+    color: red;
+    font-size: 25px;
+}
+
+
+
+
+
+
+.search{
+    border: 1px solid lightblue;
+    outline: none;
+    background: transparent ;
+    color: black;
+    font-size: 20px;
+    padding: 10px 70px;
+    border-radius: 20px;
+    text-align: center;
+    
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.upper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lower{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(255,255,255, 0.3);
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+
+.feels-like{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.speed{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.humidity {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.value{
+    margin-top: -13px;
+    font-weight: bold;
+}
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: -15px;
+    font-family: 'Rubik', sans-serif;
+
+}
+h2{
+    font-size: 40px;
+    margin-bottom: -20px;
+    font-weight: bold;
+    
+    font-family: 'Rubik', sans-serif;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+
+p{
+    font-size: 20px;
+   
+    font-family: 'Rubik', sans-serif;
+}
